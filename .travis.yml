@@ -6,3 +6,8 @@ python:
   
 script:
   - python hello.py
+
+notifications:
+  slack:
+    on_success: never
+    on_failure: never
